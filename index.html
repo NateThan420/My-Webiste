@@ -1,34 +1,26 @@
-<button>
-  Hello
-</button>
-
-
-<a href="https://www.youtube.com/" target="_blank">
-  Link to YouTube
-</a>
-
-
-
-
-
-
-
-
-
-<html>
-<h1>
-  Hey, I'm Galimba
-</h1>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h2>About me</h2>
-  <p>
-    I am the most sigmaest of them all.
-  </p>
-  <h2>What I'm working on</h2>
-  <p>
-    I'm obsessed with AI, specifically AI chatbots.
-  </p>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
