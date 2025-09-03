@@ -57,3 +57,12 @@ button:hover {
 .dashboard-container h1 {
     color: #007BFF;
 }
+
+#logoutBtn {
+    background-color: #dc3545; /* A reddish color for a "danger" action */
+    margin-top: 20px;
+}
+
+#logoutBtn:hover {
+    background-color: #c82333;
+}
